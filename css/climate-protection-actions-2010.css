@@ -1,0 +1,77 @@
+/* GP MOBILE GUIDE CSS 
+======================= */
+
+/* SPECIFIC STYLES FOR 'CLIMATE PROTECTION ACTIONS 2010' */
+
+/* Last Updated: 09.03.2012 11:50 */
+/* By: Laurent LANG */
+
+
+/* Content 
+========== */
+
+p { margin: 0 0 8px 0; }
+
+#content-header { padding: 14px 16px; background: #292D38; color: #fff; }
+#content-header h3 { color: #65CB00; font-size: 20px; font-weight: bold; margin: 0 0 10px 0; }
+#content-header h5 { color: #fff; font-size: 12px; font-weight: bold; }
+
+.introtext { padding: 14px 16px; }
+
+.legend { display: block; font-size: 12px; font-weight: bold; }
+.co2 { display: block; background: transparent url('../images/round_minus.png') no-repeat; padding: 0 0 0 17px; margin: 0 0 4px 0; }
+.money { display: block; background: transparent url('../images/round_plus.png') no-repeat; padding: 0 0 0 17px; }
+
+/* Main List */
+
+ul { margin-left: 5px; }
+ul h4 { color: #414759; font-size: 18px; font-weight: bold; margin: 15px 0 8px 8px; }
+ul h4.first { margin: 0 0 8px 8px; }
+ul li { list-style-type: none; height: auto; margin: 6px 0 0 0; padding: 10px 0 10px 8px; border-top: 1px solid #C8C8C8; border-bottom: 1px solid #C8C8C8; border-left: 1px solid #C8C8C8; }
+ul li:last-child { margin-bottom: 15px; }
+
+.li-title { color: #467F0D; font-size: 14px; font-weight: bold; }
+.li-savings { margin: 6px 0 0 0; display: block; font-size: 12px; font-weight: bold; }
+.li-co2 { display: inline; background: transparent url('../images/round_minus.png') no-repeat; padding: 0 0 0 17px; }
+.li-money { display: inline; background: transparent url('../images/round_plus.png') no-repeat; padding: 0 0 0 17px; margin: 0 0 0 10px; }
+
+
+/* Media Queries 
+================ */
+
+/* High Tier */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+	
+
+	
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+
+}
+
+
+/* Mid Tier */
+@media only screen and (max-width: 319px) { 
+	
+	#content-header h3 { font-size: 16px; }
+	.introtext { font-size: 11px; line-height: 1.3; }
+	.legend { font-size: 11px; }
+	ul h4 { font-size: 16px; }
+	.li-title { font-size: 13px; }
+			
+}
+
+
+/* Low Tier */
+@media only screen and (max-width: 239px) { 
+	
+	#content-header h3 { font-size: 13px; }
+	.introtext { font-size: 11px; line-height: 1.3; }
+	ul h4 { font-size: 14px; }
+	.li-title { font-size: 12px; }
+	.li-savings { font-size: 11px; }
+	
+}
+

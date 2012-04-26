@@ -1,0 +1,34 @@
+/* JQUERY MOBILE GREENPEACE THEME 
+================================= */
+
+/* THEME 'G' */
+
+/* Last Updated: 15.02.2012 10:40 */
+/* By: Laurent LANG */
+
+/* Note: Activate by adding data-theme="g" to the div with data-role="page" */
+
+
+.ui-bar-g { border:none; background:#fff; color:#333; background-image:0; background-image:0; background-image:0; background-image:0; background-image:0; background-image:linear-gradient(#ddd,#bbb); }
+.ui-bar-g,.ui-bar-g input,.ui-bar-g select,.ui-bar-g textarea,.ui-bar-g button { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+.ui-bar-g .ui-link-inherit { color:#333; }
+.ui-bar-g .ui-link { color:#2489ce; font-weight:bold; }
+.ui-bar-g .ui-link:hover { color:#2489ce; }
+.ui-bar-g .ui-link:active { color:#2489ce; }
+.ui-bar-g .ui-link:visited { color:#2489ce; }
+.ui-body-g,.ui-dialog.ui-overlay-g { border:1px solid #ccc; color:#333; background:#fff; background-image:0; background-image:0; background-image:0; background-image:0; background-image:0; background-image:linear-gradient(#fff,#fff); }
+.ui-body-g,.ui-body-g input,.ui-body-g select,.ui-body-g textarea,.ui-body-g button { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+.ui-body-g .ui-link-inherit { color:#333; }
+.ui-body-g .ui-link { color:#467F0D; }
+.ui-body-g .ui-link:hover { color:#467F0D; }
+.ui-body-g .ui-link:active { color:#467F0D; }
+.ui-body-g .ui-link:visited { color:#467F0D; }
+.ui-btn-up-g { border:1px solid #ccc; background:#fff; font-weight:bold; color:#444; text-shadow:0 1px 1px #fff; background-image:0; background-image:0; background-image:0; background-image:0; background-image:0; background-image:linear-gradient(#fff,#fff); }
+.ui-btn-up-g a.ui-link-inherit { color:#333; }
+.ui-btn-hover-g { border:1px solid #aaa; background:#eee; font-weight:bold; color:#222; cursor:pointer; text-shadow:0 1px 1px #fff; background-image:0; background-image:0; background-image:0; background-image:0; background-image:0; background-image:linear-gradient(#fdfdfd,#eee); }
+.ui-btn-hover-g a.ui-link-inherit { color:#222; }
+.ui-btn-down-g { border:1px solid #aaa; background:#fff; font-weight:bold; color:#111; text-shadow:0 1px 1px #fff; background-image:0; background-image:0; background-image:0; background-image:0; background-image:0; background-image:linear-gradient(#eee,#fff); }
+.ui-btn-down-g a.ui-link-inherit { color:#111; }
+.ui-btn-up-g,.ui-btn-hover-g,.ui-btn-down-g { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; text-decoration:none; }
+
+

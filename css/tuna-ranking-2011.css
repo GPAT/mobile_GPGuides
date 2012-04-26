@@ -1,0 +1,86 @@
+/* GP MOBILE GUIDE CSS 
+======================= */
+
+/* SPECIFIC STYLES FOR 'TUNA RANKING 2011' */
+
+/* Last Updated: 20.02.2012 10:00 */
+/* By: Laurent LANG */
+
+
+/* Content 
+========== */
+
+#content-header { padding: 14px 16px; background: #292D38; color: #fff; }
+#content-header h3 { color: #65CB00; font-size: 20px; font-weight: bold; margin: 0 0 10px 0; }
+#content-header h5 { color: #fff; font-size: 12px; font-weight: bold; }
+
+.introtext { padding: 14px 16px; }
+
+/* Main List */
+
+ul li { list-style-type: none; height: 80px; margin: 6px 0 0 5px; border-top: 1px solid #C8C8C8; border-bottom: 1px solid #C8C8C8; background: url(../images/arrow-right.gif)  95% 50% no-repeat; }
+ul li:last-child { margin-bottom: 15px; }
+ul li img { padding: 10px 0 0 10px; position: absolute; }
+
+li.listhead { height: auto; border-left: 10px solid #C8C8C8; }
+li.green { border-left: 10px solid #58b006; }
+li.orange { border-left: 10px solid #ff9900; }
+li.red { border-left: 10px solid #990000; }
+
+.backgroundinfo { margin: 0 0 0 20px; display: block; font-size: 16px; font-weight: bold; padding: 20px 0; }
+.li-title, .li-desc { margin: 0 0 0 90px; display: block; }
+.li-title { padding: 6px 0 2px 0; font-weight: bold; }
+.li-desc { color: #414759; font-size: 11px; }
+
+.list-item-shadow { box-shadow: 0 0 7px #C8C8C8; -moz-box-shadow: 0 0 7px #C8C8C8; -webkit-box-shadow: 0 0 7px #C8C8C8; }
+
+/* Rating Icons List */
+
+ul.ranking { margin: 0 0 0 90px; padding: 10px 0 0 0; }
+ul.ranking li { list-style-type: none; display: inline; border: none; color: #414759; font-size: 11px; float: left; margin: 0; padding: 0 5px 0 0; width: 20px; height: 20px; background: none; }
+
+.green-fish, .orange-fish, .red-fish { display: block; width: 20px; height: 20px; }
+.green-fish { background: url(../images/sprite-tuna.png) 0px 0px no-repeat; }
+.orange-fish { background: url(../images/sprite-tuna.png) 0px -20px no-repeat; }
+.red-fish { background: url(../images/sprite-tuna.png) 0px -40px no-repeat; }
+
+
+/* Media Queries 
+================ */
+
+/* High Tier */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+	
+	
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+
+}
+
+
+/* Mid Tier */
+@media only screen and (max-width: 319px) { 
+	
+	#content-header h3 { font-size: 16px; }
+	.introtext { font-size: 11px; line-height: 1.3; }
+	.backgroundinfo { font-size: 12px; }
+	li img { display: none; }
+	.li-title, .li-desc, ul.ranking { margin: 0 0 0 20px; }
+			
+}
+
+
+/* Low Tier */
+@media only screen and (max-width: 239px) { 
+	
+	#content-header h3 { font-size: 14px; }
+	.introtext { font-size: 11px; line-height: 1.3; }
+	.backgroundinfo { margin: 0 0 0 10px; font-size: 11px; }
+	li img { display: none; }
+	.li-title, .li-desc, ul.ranking { margin: 0 0 0 10px; }
+	.li-title { font-size: 12px; }
+	
+}
+

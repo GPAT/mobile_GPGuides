@@ -1,0 +1,136 @@
+/* GP MOBILE GUIDE CSS 
+======================= */
+
+/* MASTER STYLESHEET */
+
+/* Last Updated: 03.04.2012 10:11 */
+/* By: Laurent LANG */
+
+
+/* Reset
+======== */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+
+/* Basic styles
+=============== */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+body { background: #fff; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px; line-height: normal; color: #414759; }
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .clearfix { height: 1%; } /* IE6 */ 
+*:first-child+html .clearfix { min-height: 1px; } /* IE7 */
+
+
+/* Links 
+======== */
+
+a, a:visited { color: #467F0D; text-decoration: none; outline: 0; }
+a:hover, a:focus { color: #467F0D; text-decoration: none; }
+
+
+/* Header 
+========= */
+
+#header { height: 49px; background: url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/bg-header.png') repeat-x; position: relative; border-bottom: 1px solid #6C6C6C; }
+
+.logo { width: 154px; overflow: hidden; position: absolute; top: 10px; left: 14px; }
+.logo a { display: block; background: url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/logo.png') no-repeat; height: 27px; }
+
+.heading { position: absolute; display: block; left: 172px; top: 20px; font-size: 16px; line-height: 16px; color: #fff; }
+
+
+/* Content 
+========== */
+
+/* Specific styles can be found in the following stylesheets:
+
+	climate-protection-actions-2010.css
+	fish-guide-2011.css
+	greenerelectronics-guide-2011.css
+	nuclearpower-check-2012.css
+	tuna-ranking-2011.css
+
+*/
+
+
+/* Footer
+========= */
+
+.bookmark { text-align: center; margin: 0 0 15px 0; }
+.bookmark.topmargin { margin-top: 15px; }
+.bookmark-r1 { font-size: 12px; }
+.bookmark-r2 { font-size: 20px; font-weight: bold; }
+.bookmark-r3 { line-height: 18px; }
+
+.share { height: 50px; width: auto; }
+.share.footer { border: #3D3A35 1px solid; border-left: none; border-right: none; background: #5E5B58 url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/bg-share-light.png') repeat-x; }
+.share.footer h2 { color: #fff; -moz-text-shadow: 1px 1px 2px #000; -webkit-text-shadow: 1px 1px 2px #000; text-shadow: 1px 1px 2px #000; }
+.share h2 { float: left; margin: 0; font-family: Arial, sans-serif; font-weight: bold; font-size: 18px; line-height: 18px; padding: 16px; }
+.share ul { float: right; padding: 0 10px 0 0; margin: 0; width: auto; background: transparent; }
+.share li { float: left; padding: 0; font-size: 1px; line-height: 1px; text-indent: -1000px; width: 30px; height: 30px; overflow: hidden; margin: 10px 8px; border: none; background: transparent; }
+.share li a { width: 30px; height: 30px; display: block; }
+.share li a.facebook { background: url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/icons-share.png') no-repeat 0 0; }
+.share li a.twitter { background: url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/icons-share.png') no-repeat -30px 0; }
+.share li a.email { background: url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/icons-share.png') no-repeat -60px 0; }
+.share li a.more { background: url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/icons-share.png') no-repeat -90px 0; }
+.share li a.facebook span, .share li a.twitter span, .share li a.email span, .share li a.more span { display: none; }
+
+.back-button { background: #56AC00 url('http://www.greenpeace.org/austria/Templates/Planet3Mobile/Styles/images/footerHomeTile.png') repeat-x; border-top: 1px solid #54A109; border-bottom: 1px solid #54A109; height: 48px; display: block; }
+.back-button a { cursor: auto; height: 48px; }
+.back-button span { padding: 16px 16px 16px 20px; margin: 0 0 0 12px; display: block; color: #fff; background: url(../images/arrow-left-light-darkbg.gif) no-repeat left; font-family: Arial, sans-serif; font-weight: bold; font-size: 15px; text-shadow: 1px 1px 2px #000; }
+
+.back-button-hover { background: url(../images/bg-back-hover.png) repeat-x; -webkit-user-select: none; -webkit-touch-callout: none; }
+
+.copyright { padding: 8px 14px; color: #969696; font-size: 12px; font-weight: bold; }
+.copyright a { color: #467F0D; text-decoration: none; }
+
+
+/* Media Queries 
+================ */
+
+/* High Tier */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+	
+	
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+
+}
+
+
+/* Mid Tier */
+@media only screen and (max-width: 319px) { 
+	
+	.bookmark-r1 { font-size: 11px; }
+	.bookmark-r2 { font-size: 18px; font-weight: bold; }
+	.bookmark-r3 { font-size: 11px; line-height: 16px; }
+	.back-button span { font-size: 14px; }
+	.copyright { font-size: 11px; }
+			
+}
+
+
+/* Low Tier */
+@media only screen and (max-width: 239px) { 
+	
+	.bookmark-r1 { font-size: 10px; }
+	.bookmark-r2 { font-size: 16px; font-weight: bold; }
+	.bookmark-r3 { font-size: 10px; line-height: 14px; }
+	.heading { display: none; }
+	.back-button span { font-size: 13px; }
+	
+}
+
